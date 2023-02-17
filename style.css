@@ -1,0 +1,100 @@
+body{
+
+    margin-right: 5%;
+    margin-left: 5%;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+header img{
+    width: 60px;
+}
+
+.principal{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.principal h1{
+    font-size: 50px;
+}
+
+.principal p{
+    font-weight: 50;
+}
+
+.image img{
+    width: 400px;
+}
+
+/* Skills */
+.skills h1{
+    margin: 50px auto 50px auto;
+    text-align: center;
+}
+
+.skills p{
+    text-align: center;
+}
+
+.skill-icon{
+    
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.skill-general{
+    margin-right: 70px;
+    margin-left: 70px;
+}
+.skill-general img{
+    width: 120px;
+}
+
+/* Proyectos */
+.proyectos h1{
+    margin: 50px auto 50px auto;
+    text-align: center;
+}
+
+.proyectos-component{
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.proyectos-img{
+    padding: 30px;
+    width: 35%;
+}
+.proyectos-img img{
+    width: 400px;
+    border-radius: 10px;
+
+}
+
+.proyectos-text{
+    padding: 30px;
+    width: 35%;
+    text-align: left;
+}
+
+.proyectos-text img{
+    width: 30px;
+}
